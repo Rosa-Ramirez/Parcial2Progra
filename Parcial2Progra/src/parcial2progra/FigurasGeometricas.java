@@ -3,14 +3,14 @@ public class FigurasGeometricas {
     double altura;
     boolean is3D;
     
-    public FigurasGeometricas(double altura){
-        this.altura = altura;
-    }
+    //public FigurasGeometricas(double altura){
+      //  this.altura = altura;
+    //}
     
-    public FigurasGeometricas(double base, boolean is3D){
-        this.altura = base;
-        this.is3D = is3D;
-    }
+   // public FigurasGeometricas(double base, boolean is3D){
+     //   this.altura = base;
+       // this.is3D = is3D;
+    //}
     
     public double area(double lado){
         if (this.is3D == true) {
