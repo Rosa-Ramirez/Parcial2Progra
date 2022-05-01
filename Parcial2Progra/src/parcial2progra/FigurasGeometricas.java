@@ -31,8 +31,14 @@ public class FigurasGeometricas {
     }
     
     public double perimetro(double longitudLado){
-        double resultadoPerimetro = 4 * longitudLado;
+        return 4*longitudLado;
+    }
+    public double perimetro(double longitudLado, double numero){
+        numero = 4;
+        double resultadoPerimetro = numero * longitudLado;
         return resultadoPerimetro;
     }
+    
+    
 }
 
