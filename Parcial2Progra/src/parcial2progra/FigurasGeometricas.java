@@ -1,5 +1,7 @@
 package parcial2progra;
 public class FigurasGeometricas {
+    int ancho;
+    int lado;
     
     public double area(double lado){
         double resultadoArea = lado * lado;
