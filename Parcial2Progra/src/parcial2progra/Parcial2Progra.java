@@ -15,12 +15,12 @@ public class Parcial2Progra {
         System.out.println("0. Salir");
         Scanner escaner = new Scanner(System.in);
         opcion = escaner.nextInt();
+        double a = 0;
         
-        Cuadrado cuadrado = new Cuadrado();
+        Cuadrado cuadrado = new Cuadrado(a);
         Rectangulo rectangulo = new Rectangulo();
         Cubo cubo = new Cubo();
         
-        while (opcion < 4){
             switch (opcion){
                 case 1:
                     System.out.println("Ingrese el valor de a");
@@ -42,11 +42,10 @@ public class Parcial2Progra {
                     System.out.println("Ingrese el valor de la longitud un lado");
                     double longitud = escaner.nextDouble();
                     System.out.println("El volumen del cubo es: "+cubo.area(longitud));
-                    break;
-            
+                    break;    
         }
         
-        }
+        
         
     }
     
