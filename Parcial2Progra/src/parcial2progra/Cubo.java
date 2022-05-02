@@ -3,9 +3,9 @@ package parcial2progra;
 public class Cubo extends FigurasGeometricas {
     boolean is3D;
     double base;
-    int numeroLados;
+    double numeroLados = 6;
     
-    public Cubo(int numeroLados){
+    public Cubo(double numeroLados){
         this.numeroLados = numeroLados;
     }
     

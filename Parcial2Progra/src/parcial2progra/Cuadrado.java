@@ -3,6 +3,7 @@ package parcial2progra;
 public class Cuadrado extends FigurasGeometricas{
     double ladosIguales;
     double cuatroLados;
+    String igual;
     public Cuadrado(double ladosIguales){
        this.ladosIguales = ladosIguales;
         
@@ -19,6 +20,7 @@ public class Cuadrado extends FigurasGeometricas{
     
     public String ladosIgualesC(String igual){
         igual = "Todos los lados de un cuadro son iguales";
+        this.igual = igual;
         return ""+igual;
     }
 
@@ -28,3 +30,8 @@ public class Cuadrado extends FigurasGeometricas{
         return Math.pow(lado, eleva);
     }
 }
+
+    
+    
+    
+
