@@ -7,10 +7,20 @@ public class Cuadrado extends FigurasGeometricas{
        this.ladosIguales = ladosIguales;
         
    }
-    //public Cuadrado(double ladosIguales, double cuatroLados){
-     //   this.ladosIguales = ladosIguales;
-    //    this.cuatroLados = cuatroLados;
-   //}
+    public Cuadrado(double ladosIguales, double cuatroLados){
+       this.ladosIguales = ladosIguales;
+        this.cuatroLados = cuatroLados;
+   }
+    
+    public String ladosC(int numero){
+        numero = 4;
+        return "Un cuadro tiene: "+numero+" lados.";
+    }
+    
+    public String ladosIgualesC(String igual){
+        igual = "Todos los lados de un cuadro son iguales";
+        return ""+igual;
+    }
 
     @Override
     public double area(double lado, double eleva){

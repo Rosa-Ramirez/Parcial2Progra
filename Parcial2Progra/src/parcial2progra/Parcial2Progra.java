@@ -18,7 +18,7 @@ public class Parcial2Progra {
         double a = 0;
         
         Cuadrado cuadrado = new Cuadrado(a);
-        Rectangulo rectangulo = new Rectangulo();
+        Rectangulo rectangulo = new Rectangulo(a);
         Cubo cubo = new Cubo();
         
             switch (opcion){
